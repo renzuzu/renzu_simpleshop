@@ -2,9 +2,19 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'ESX Shops'
+description 'FUCK YOU DUMPERS HAHA'
 
 version '1.1.0'
+
+files {
+	'html/ui.html',
+	'html/styles.css',
+	'html/scripts.js',
+	'html/debounce.min.js',
+	'html/iransans.otf',
+	-- default
+	'html/img/*.png',
+}
 
 client_scripts {
 	'@es_extended/locale.lua',
@@ -19,6 +29,8 @@ client_scripts {
 	'config.lua',
 	'client/main.lua'
 }
+
+ui_page 'html/ui.html'
 
 server_scripts {
 	'@es_extended/locale.lua',
